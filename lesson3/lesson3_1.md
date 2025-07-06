@@ -35,3 +35,4 @@ INSERT INTO student (name, major)
 VALUES  ('小柱','生物'),
         ('小淮','英文');
 ```sql
+
