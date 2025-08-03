@@ -7,5 +7,10 @@
     "editor.formatOnSave": true,
     // Trim trailing whitespace when saving a file.
     "files.trimTrailingWhitespace": true,
-    "claudeCodeChat.permissions.yoloMode": false
+    "claudeCodeChat.permissions.yoloMode": false,
+    "chat.mcp.serverSampling": {
+        "PostgresSQL_20250629/.vscode/mcp.json: vscode_postgres": {
+            "allowedModels": []
+        }
+    }
 }
