@@ -6,8 +6,8 @@ import psycopg2
 def create_connection():
     conn = psycopg2.connect(
         host = "host.docker.interal",
-        dabase = "postgres"
-        user="postgres",
+        dabase = "POSTGRESSQL_20250629"
+        user="shensh1",
         password = "sh910418",
         port="5432"
     )
