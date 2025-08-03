@@ -3,25 +3,24 @@
 #建立連線環境參數的樣版
 import psycopg2
 
-
 def create_connection():
     conn = psycopg2.connect(
-        host="host.docker.internal",
-        database="postgres",
-        user="postgres",
-        password="raspberry",
+        host = "host.docker.interal",
+        dabase = "POSTGRESSQL_20250629"
+        user="shensh1",
+        password = "sh910418",
         port="5432"
     )
     return conn
 
-
 def main():
     conn = create_connection()
     if conn:
-        print("成功連接到資料庫！")
+        print("成功連接到資料庫!")
         conn.close()
     else:
-        print("無法連接到資料庫！")
+        print("無法連線到資料庫!")
 
-if __name__ == "__main__":
+
+if  __name__ == "__main_":
     main()
