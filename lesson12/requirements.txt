@@ -3,4 +3,4 @@ python-dotenv
 streamlit
 matplotlib
 seaborn
-mumpy
+numpy

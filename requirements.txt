@@ -3,5 +3,5 @@ python-dotenv
 streamlit
 matplotlib
 seaborn
-mumpy
+numpy
 # 終端機執行>>>  (pydev) root@b3d27e413011:/home/PostgresSQL_20250629# pip install -r requirements.txt
