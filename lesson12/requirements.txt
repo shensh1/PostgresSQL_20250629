@@ -1,6 +1,10 @@
 psycopg2-binary
 python-dotenv
 streamlit
+<<<<<<< HEAD
 matplotlib
 seaborn
 numpy
+=======
+# 終端機執行>>>  (pydev) root@b3d27e413011:/home/PostgresSQL_20250629# pip install -r requirements.txt
+>>>>>>> 6d2a0044af69caed6404747b26e89ddb3a1d3e69
