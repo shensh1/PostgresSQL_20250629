@@ -1,13 +1,12 @@
-
 {
-    "servers": {
-        "vscode_postgres": {
-        "command": npx",
-        "args": [
+  "servers": { 
+    "render_postgres": {
+      "command": "npx",
+      "args": [
         "-y",
         "@modelcontextprotocol/server-postgres",
-        "postgresql://postgres:sh910418@host.docker.internal:5432/postgres"
+        "postgresql://chillee_sunday_kjui_user:FAkOSV8QpJEASNzGSwToPYuh5LKuBGek@dpg-d2bvmv15pdvs73d5mlh0-a.singapore-postgres.render.com/chillee_sunday_kjui"
       ]
-    }"
-    },
+    }
+  },
 }
